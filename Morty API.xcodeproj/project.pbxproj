@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CBE82039662272A3219C693 /* Pods_Morty_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5B24EC75AD495DAACEB57E /* Pods_Morty_API.framework */; };
+		CA36056F28F6801C002A758D /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36056D28F6801C002A758D /* FavoriteVC.swift */; };
+		CA36057028F6801C002A758D /* FavoriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA36056E28F6801C002A758D /* FavoriteVC.xib */; };
+		CA36057328F6803D002A758D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36057128F6803D002A758D /* TabBarVC.swift */; };
+		CA36057428F6803D002A758D /* TabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA36057228F6803D002A758D /* TabBarVC.xib */; };
+		CA3E813728F55B030018224E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E813628F55B030018224E /* AppDelegate.swift */; };
+		CA3E814028F55B040018224E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3E813F28F55B040018224E /* Assets.xcassets */; };
+		CA3E814328F55B040018224E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3E814128F55B040018224E /* LaunchScreen.storyboard */; };
+		CA3E815228F55B7C0018224E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E815028F55B7C0018224E /* HomeVC.swift */; };
+		CA3E815328F55B7C0018224E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E815128F55B7C0018224E /* HomeVC.xib */; };
+		CA3E815828F563C70018224E /* CharacterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E815628F563C70018224E /* CharacterTVC.swift */; };
+		CA3E815928F563C70018224E /* CharacterTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E815728F563C70018224E /* CharacterTVC.xib */; };
+		CA3E815B28F5692C0018224E /* CharacterDm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E815A28F5692C0018224E /* CharacterDm.swift */; };
+		CA3E815D28F5694D0018224E /* LocationDm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E815C28F5694D0018224E /* LocationDm.swift */; };
+		CA3E815F28F569990018224E /* EpisodeDm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E815E28F569990018224E /* EpisodeDm.swift */; };
+		CA3E816128F56BC10018224E /* OriginDm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E816028F56BC10018224E /* OriginDm.swift */; };
+		CAF2C47028F5908800376B19 /* CharacterDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2C46E28F5908800376B19 /* CharacterDetailVC.swift */; };
+		CAF2C47128F5908800376B19 /* CharacterDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF2C46F28F5908800376B19 /* CharacterDetailVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E5B24EC75AD495DAACEB57E /* Pods_Morty_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Morty_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67572600E44629C390E6EB9B /* Pods-Morty API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morty API.debug.xcconfig"; path = "Target Support Files/Pods-Morty API/Pods-Morty API.debug.xcconfig"; sourceTree = "<group>"; };
+		9BDC3265A789DC9911AF9398 /* Pods-Morty API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morty API.release.xcconfig"; path = "Target Support Files/Pods-Morty API/Pods-Morty API.release.xcconfig"; sourceTree = "<group>"; };
+		CA36056D28F6801C002A758D /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		CA36056E28F6801C002A758D /* FavoriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteVC.xib; sourceTree = "<group>"; };
+		CA36057128F6803D002A758D /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		CA36057228F6803D002A758D /* TabBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarVC.xib; sourceTree = "<group>"; };
+		CA3E813328F55B030018224E /* Morty API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morty API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E813628F55B030018224E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3E813F28F55B040018224E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3E814228F55B040018224E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3E814428F55B040018224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3E815028F55B7C0018224E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CA3E815128F55B7C0018224E /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		CA3E815628F563C70018224E /* CharacterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTVC.swift; sourceTree = "<group>"; };
+		CA3E815728F563C70018224E /* CharacterTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTVC.xib; sourceTree = "<group>"; };
+		CA3E815A28F5692C0018224E /* CharacterDm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDm.swift; sourceTree = "<group>"; };
+		CA3E815C28F5694D0018224E /* LocationDm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDm.swift; sourceTree = "<group>"; };
+		CA3E815E28F569990018224E /* EpisodeDm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDm.swift; sourceTree = "<group>"; };
+		CA3E816028F56BC10018224E /* OriginDm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginDm.swift; sourceTree = "<group>"; };
+		CAF2C46E28F5908800376B19 /* CharacterDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailVC.swift; sourceTree = "<group>"; };
+		CAF2C46F28F5908800376B19 /* CharacterDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterDetailVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3E813028F55B030018224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBE82039662272A3219C693 /* Pods_Morty_API.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E7CA0B40A37B6F64A43EC11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67572600E44629C390E6EB9B /* Pods-Morty API.debug.xcconfig */,
+				9BDC3265A789DC9911AF9398 /* Pods-Morty API.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA36057528F68046002A758D /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				CA36056E28F6801C002A758D /* FavoriteVC.xib */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		CA36057628F6804E002A758D /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				CA36056D28F6801C002A758D /* FavoriteVC.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		CA36057728F6806D002A758D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA36057128F6803D002A758D /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CA36057828F6808A002A758D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA36057228F6803D002A758D /* TabBarVC.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CA3E812A28F55B030018224E = {
+			isa = PBXGroup;
+			children = (
+				CA3E813528F55B030018224E /* Morty API */,
+				CA3E813428F55B030018224E /* Products */,
+				9E7CA0B40A37B6F64A43EC11 /* Pods */,
+				DAFD82B08166F1F92E9AFDDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3E813428F55B030018224E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E813328F55B030018224E /* Morty API.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3E813528F55B030018224E /* Morty API */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E814D28F55B510018224E /* Root */,
+				CA3E814C28F55B4D0018224E /* View */,
+				CA3E814B28F55B480018224E /* Model */,
+				CA3E814A28F55B410018224E /* Controller */,
+				CA3E813F28F55B040018224E /* Assets.xcassets */,
+				CA3E814128F55B040018224E /* LaunchScreen.storyboard */,
+				CA3E814428F55B040018224E /* Info.plist */,
+			);
+			path = "Morty API";
+			sourceTree = "<group>";
+		};
+		CA3E814A28F55B410018224E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA36057728F6806D002A758D /* TabBar */,
+				CA36057628F6804E002A758D /* Favorite */,
+				CA3E814E28F55B600018224E /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA3E814B28F55B480018224E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E815A28F5692C0018224E /* CharacterDm.swift */,
+				CA3E815C28F5694D0018224E /* LocationDm.swift */,
+				CA3E815E28F569990018224E /* EpisodeDm.swift */,
+				CA3E816028F56BC10018224E /* OriginDm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA3E814C28F55B4D0018224E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA36057828F6808A002A758D /* TabBar */,
+				CA36057528F68046002A758D /* Favorite */,
+				CA3E814F28F55B660018224E /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA3E814D28F55B510018224E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E813628F55B030018224E /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CA3E814E28F55B600018224E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E815428F5637A0018224E /* TVC */,
+				CA3E815028F55B7C0018224E /* HomeVC.swift */,
+				CAF2C46E28F5908800376B19 /* CharacterDetailVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CA3E814F28F55B660018224E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E815528F563900018224E /* TVC */,
+				CA3E815128F55B7C0018224E /* HomeVC.xib */,
+				CAF2C46F28F5908800376B19 /* CharacterDetailVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CA3E815428F5637A0018224E /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E815628F563C70018224E /* CharacterTVC.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		CA3E815528F563900018224E /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E815728F563C70018224E /* CharacterTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		DAFD82B08166F1F92E9AFDDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B24EC75AD495DAACEB57E /* Pods_Morty_API.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3E813228F55B030018224E /* Morty API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3E814728F55B040018224E /* Build configuration list for PBXNativeTarget "Morty API" */;
+			buildPhases = (
+				CEFF976942DE3DBE07CE1BB2 /* [CP] Check Pods Manifest.lock */,
+				CA3E812F28F55B030018224E /* Sources */,
+				CA3E813028F55B030018224E /* Frameworks */,
+				CA3E813128F55B030018224E /* Resources */,
+				A174C00C8AEF33CFA88E0781 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Morty API";
+			productName = "Morty API";
+			productReference = CA3E813328F55B030018224E /* Morty API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3E812B28F55B030018224E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CA3E813228F55B030018224E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CA3E812E28F55B030018224E /* Build configuration list for PBXProject "Morty API" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3E812A28F55B030018224E;
+			productRefGroup = CA3E813428F55B030018224E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3E813228F55B030018224E /* Morty API */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3E813128F55B030018224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF2C47128F5908800376B19 /* CharacterDetailVC.xib in Resources */,
+				CA36057428F6803D002A758D /* TabBarVC.xib in Resources */,
+				CA3E814328F55B040018224E /* LaunchScreen.storyboard in Resources */,
+				CA36057028F6801C002A758D /* FavoriteVC.xib in Resources */,
+				CA3E815328F55B7C0018224E /* HomeVC.xib in Resources */,
+				CA3E814028F55B040018224E /* Assets.xcassets in Resources */,
+				CA3E815928F563C70018224E /* CharacterTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A174C00C8AEF33CFA88E0781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Morty API/Pods-Morty API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Morty API/Pods-Morty API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Morty API/Pods-Morty API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFF976942DE3DBE07CE1BB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Morty API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3E812F28F55B030018224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E813728F55B030018224E /* AppDelegate.swift in Sources */,
+				CA36056F28F6801C002A758D /* FavoriteVC.swift in Sources */,
+				CA36057328F6803D002A758D /* TabBarVC.swift in Sources */,
+				CA3E815828F563C70018224E /* CharacterTVC.swift in Sources */,
+				CA3E815B28F5692C0018224E /* CharacterDm.swift in Sources */,
+				CAF2C47028F5908800376B19 /* CharacterDetailVC.swift in Sources */,
+				CA3E815D28F5694D0018224E /* LocationDm.swift in Sources */,
+				CA3E816128F56BC10018224E /* OriginDm.swift in Sources */,
+				CA3E815F28F569990018224E /* EpisodeDm.swift in Sources */,
+				CA3E815228F55B7C0018224E /* HomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA3E814128F55B040018224E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3E814228F55B040018224E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3E814528F55B040018224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3E814628F55B040018224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3E814828F55B040018224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67572600E44629C390E6EB9B /* Pods-Morty API.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Morty API/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azimjon.Morty-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA3E814928F55B040018224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDC3265A789DC9911AF9398 /* Pods-Morty API.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Morty API/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azimjon.Morty-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3E812E28F55B030018224E /* Build configuration list for PBXProject "Morty API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E814528F55B040018224E /* Debug */,
+				CA3E814628F55B040018224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3E814728F55B040018224E /* Build configuration list for PBXNativeTarget "Morty API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E814828F55B040018224E /* Debug */,
+				CA3E814928F55B040018224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3E812B28F55B030018224E /* Project object */;
+}

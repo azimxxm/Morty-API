@@ -1,0 +1,6 @@
+framework module Pods_Morty_API {
+  umbrella header "Pods-Morty API-umbrella.h"
+
+  export *
+  module * { export * }
+}
