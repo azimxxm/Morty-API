@@ -84,8 +84,28 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     
     
+    func tableView(_ tableView: UITableView, contextMenuConfigurationForRowAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
+        
+        return UIContextMenuConfiguration(identifier: nil, previewProvider: nil) { _ -> UIMenu? in
+            
+            let shareAction = UIAction(title: "Share", image: UIImage(systemName: "square.and.arrow.up")) {
+                _ in
+                print("Share")
+            }
+            
+            let editAction = UIAction(title: "Edit", image: UIImage(systemName: "square.and.pencil")) {
+                _ in
+                print("Edit")
+            }
+            
+            
+            return UIMenu(title: "Select the menu", children: [shareAction, editAction])
+            }
+            
+        
+        }
+    }
     
-}
 
 
 
